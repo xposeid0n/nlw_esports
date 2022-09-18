@@ -5,20 +5,19 @@
 }
 
 ul {
-list-style: none;
+    list-style: none;
 }
 
 body {
     background-image: url(./assets/bg.jpg);
-background-position: top center;
-background-size: 100% auto;
-background-repeat: no-repeat;
-background-color: #121214;
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
 }
 
 body * {
-font-family: 'Inter'; sans-serif
-line-height: 160%;
+    font-family: 'Inter', sans-serif;
 }
 
 header {
@@ -27,16 +26,16 @@ header {
 }
 
 header div {
-width: 120px;
-margin: auto;
-background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
 
-border-radius: 50%;
+    border-radius: 50%;
 
-display: flex;
-padding: 4px;
+    display: flex;
+    padding: 4px;
 
-transition: transform .3s;
+    transition: transform .3s;
 }
 
 header div:hover {
@@ -44,40 +43,40 @@ header div:hover {
 }
 
 header div img {
-width: 100%;
-border-radius: 50%;
+    width: 100%;
+    border-radius: 50%;
 }
 
 main {
-max-width: 580px;
-width: 90%;
-margin: 32px auto;
+    max-width: 580px;
+    width: 90%;
+    margin: 32px auto;
 
-display: grid;
-gap: 24px;
+    display: grid;
+    gap: 24px;
 }
 
 section {
-color: white;
-background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
-padding-top: 4px;
-border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 10px;
 }
 
 section div {
-background-color: #2A2634;
-padding: 32px;
-padding-top: 24px;
-border-radius: 8px;
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
 }
 
 section h2 {
-letter-spacing: -0.47px;
+    letter-spacing: -0.47px;
 }
 
 section p {
-letter-spacing: -0.18px;
-color: #A1A1AA;
+    letter-spacing: -0.18px;
+    color: #A1A1AA;
 }
 
 section ul {
@@ -96,7 +95,7 @@ section ul li:hover {
 }
 
 .games-list img {
-    width: 90px;  
+    width: 90px;
     border-radius: 8px;
 }
 
@@ -108,7 +107,7 @@ section ul li:hover {
 
 /* animation */
 
-header div{
+header div {
     animation: fromTop .7s .1s backwards;
 }
 
